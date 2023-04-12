@@ -1,38 +1,156 @@
 .App {
   text-align: center;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar {
+  position: static !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.PerformanceImage {
+  width: 95%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.RoomShedulingImage {
+  width: 95%;
+}
+
+ul.unorderlist {
+  list-style-image: url('https://img.icons8.com/ios/25/000000/checkmark--v1.png');
+}
+
+.get-started {
+  background-color: black !important;
+  color: antiquewhite !important;
+  margin-left: 1rem !important;
+  padding: 0.4rem 1rem 0.4rem !important;
+}
+
+.get-started-header {
+  background-color: black !important;
+  color: antiquewhite !important;
+  margin-left: 1rem !important;
+  padding: 0.6rem 2rem 0.6rem !important;
+  width: 100%;
+}
+
+.login {
+  /* color: black !important; */
+  border: none !important;
+  font-weight: bold !important;
+}
+
+.fastclean-box {
+  position: relative;
+  vertical-align: middle;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.MobileImage {
+  width: 100%;
+  height: 100%;
+}
+
+.fastclean-heading {
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-top: 4rem !important;
+}
+
+.fastclean-sub-heading {
+  text-align: left;
+}
+
+.how-it-works {
+  position: relative;
+  display: flex;
+  padding-top: 0.7rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
+}
+.smart-integrations{
+  text-align: left;
+  font-weight: bold;
+
+}
+.social-icons{
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.IntegratedSolution{
+  margin-top: 2rem;
+}
+.IntegratedSolution-heading{
+  font-weight: 800;
+  font-size: 3rem;
+  padding-bottom: 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.performance-box {
+  background-color: rgb(231, 231, 236);
+  border-radius: 20px;
+}
+.room-box {
+  background-color: rgb(231, 231, 236);
+  border-radius: 20px;
+}
+
+.performance-heading{
+  padding-top: 2rem;
+}
+
+.room-heading{
+  padding-top: 2rem;
+}
+
+.performance-text{
+  padding-bottom: 2rem;
+}
+
+.room-text{
+  padding-bottom: 2rem;
+}
+
+.SmartCommunication{
+  position: relative;
+  margin-top: -10rem;
+  z-index: -10;
+  background-color: rgba(1, 1, 80, 0.959);
+}
+
+.SmartCommunication-box{
+  padding-top: 15rem;
+}
+
+.smart-content-box{
+  color: antiquewhite;
+  position: relative;
+}
+
+.SmartCommunicationImage{
+  width: 95%;
+}
+
+.smart-communication-heading{
+  text-align: left;
+
+}
+
+.smart-communication-text{
+  text-align: left;
+}
+
+ul{
+  text-align: left;
+}
+
+@media screen and (max-width: 991.9px) {
+  .get-started-header {
+    padding: 0.6rem 0.6rem 0.6rem !important;
   }
 }
